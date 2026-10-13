@@ -1,0 +1,30 @@
+# Operating-system files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Local CAD backups and lock files
+*.FCStd1
+*.FCStd2
+*.FCBak
+*.FCStd.bak
+*.lock
+
+# Local build output and printer-specific jobs
+build/
+*.bin
+*.elf
+*.map
+*.gcode
+*.gcode.3mf
+printing/sliced/
+
+# Private development material
+archive/
+captures/
+design/concepts/
+.env
+.env.*
+__pycache__/
+*.pyc
